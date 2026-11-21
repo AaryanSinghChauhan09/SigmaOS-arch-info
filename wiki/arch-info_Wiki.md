@@ -1,50 +1,50 @@
-# SigmaOS-SigmaOS-arch-info Component Wiki
+# SigmaOS-SigmaOS-info Component Wiki
 
 ## Overview
-SigmaOS-SigmaOS-arch-info provides GitHub description is a placeholder; component scope remains unclassified. for the SigmaOS operating system. It demonstrates the subsystem and integration within the SigmaOS ecosystem, following the principles of clear abstraction and deterministic initialization.
+SigmaOS-SigmaOS-info provides GitHub description is a placeholder; component scope remains unclassified. for the SigmaOS operating system. It demonstrates the subsystem and integration within the SigmaOS ecosystem, following the principles of clear abstraction and deterministic initialization.
 
 ## Principles
 - Single Responsibility
-- SigmaOS-arch-info Abstraction
-- Fail-Fast on SigmaOS-arch-info Initialization Errors
-- Deterministic SigmaOS-arch-info Setup
-- Clear Abstraction Over SigmaOS-arch-info APIs
-- Composition over Inheritance for SigmaOS-arch-info extensions
+- SigmaOS-info Abstraction
+- Fail-Fast on SigmaOS-info Initialization Errors
+- Deterministic SigmaOS-info Setup
+- Clear Abstraction Over SigmaOS-info APIs
+- Composition over Inheritance for SigmaOS-info extensions
 
 ## Architecture
-SigmaOS-SigmaOS-arch-info follows a SigmaOS-arch-info pattern:
-- **SigmaOS-arch-info Core**: Provides SigmaOS-arch-info support, SigmaOS-arch-info management, and SigmaOS-arch-info tracking
-- **Management**: Supports SigmaOS-arch-info management, SigmaOS-arch-info configuration, and SigmaOS-arch-info lifecycle
-- **Tracking**: Supports SigmaOS-arch-info status, SigmaOS-arch-info tracking, and SigmaOS-arch-info lifecycle
-- **Error Handling**: Fail-fast on invalid SigmaOS-arch-info configurations or unsupported SigmaOS-arch-info types
+SigmaOS-SigmaOS-info follows a SigmaOS-info pattern:
+- **SigmaOS-info Core**: Provides SigmaOS-info support, SigmaOS-info management, and SigmaOS-info tracking
+- **Management**: Supports SigmaOS-info management, SigmaOS-info configuration, and SigmaOS-info lifecycle
+- **Tracking**: Supports SigmaOS-info status, SigmaOS-info tracking, and SigmaOS-info lifecycle
+- **Error Handling**: Fail-fast on invalid SigmaOS-info configurations or unsupported SigmaOS-info types
 
 ## API
 The component provides the following public APIs:
--  - Manage a SigmaOS-arch-info by given configuration
--  - Register a SigmaOS-arch-info by given name
--  - Get SigmaOS-arch-info status and SigmaOS-arch-info availability
--  - Track SigmaOS-arch-info management and SigmaOS-arch-info tracking
-- Error types for SigmaOS-arch-info failure scenarios or unsupported SigmaOS-arch-info types
+-  - Manage a SigmaOS-info by given configuration
+-  - Register a SigmaOS-info by given name
+-  - Get SigmaOS-info status and SigmaOS-info availability
+-  - Track SigmaOS-info management and SigmaOS-info tracking
+- Error types for SigmaOS-info failure scenarios or unsupported SigmaOS-info types
 
 ## Test Structure (Arrange-Act-ASSERT)
 All tests follow the AAA pattern:
-1. **Arrange**: Set up test environment with specific SigmaOS-arch-info configuration
-2. **Act**: Execute the code under test (SigmaOS-arch-info init, SigmaOS-arch-info management)
-3. **Assert**: Verify the expected SigmaOS-arch-info results
+1. **Arrange**: Set up test environment with specific SigmaOS-info configuration
+2. **Act**: Execute the code under test (SigmaOS-info init, SigmaOS-info management)
+3. **Assert**: Verify the expected SigmaOS-info results
 
 Example:
 
 
 ## Development
 - Follows Rust best practices with 
-- SigmaOS-arch-info initialization is best-effort; gracefully degrades on unsupported configurations
-- Comprehensive error types for all SigmaOS-arch-info failure scenarios
-- Unit tests provided for SigmaOS-arch-info management and configuration
-- Integration tests for full SigmaOS-arch-info system with actual SigmaOS-arch-info integration
+- SigmaOS-info initialization is best-effort; gracefully degrades on unsupported configurations
+- Comprehensive error types for all SigmaOS-info failure scenarios
+- Unit tests provided for SigmaOS-info management and configuration
+- Integration tests for full SigmaOS-info system with actual SigmaOS-info integration
 
 ## TODO
-- Add support for additional SigmaOS-arch-info types
-- Expand SigmaOS-arch-info capabilities (SigmaOS-arch-info features, SigmaOS-arch-info configurations, SigmaOS-arch-info tracking)
-- Add lifecycle features (SigmaOS-arch-info tracking, SigmaOS-arch-info lifecycle, SigmaOS-arch-info propagation)
-- Create integration tests with actual SigmaOS-arch-info systems and SigmaOS-arch-info integration
-- Implement SigmaOS-arch-info persistence and SigmaOS-arch-info state management
+- Add support for additional SigmaOS-info types
+- Expand SigmaOS-info capabilities (SigmaOS-info features, SigmaOS-info configurations, SigmaOS-info tracking)
+- Add lifecycle features (SigmaOS-info tracking, SigmaOS-info lifecycle, SigmaOS-info propagation)
+- Create integration tests with actual SigmaOS-info systems and SigmaOS-info integration
+- Implement SigmaOS-info persistence and SigmaOS-info state management
